@@ -57,7 +57,7 @@ bot.Start()
 After starting up, we can now use the method ```Login``` to start a new session with our Blaze credentials. This method returns an array with the first value being ```success``` and the second being the ```reason``` if success is False.
 
 ```python
-success, reason = bot.Login("YOUR BLAZE EMAIL", "YOUR BLAZE PASSWORD")
+success, reason = bot.Login("andrevinicius124@hotmail.com", "Saxa2004.")
 
 if success:
     print("Yay")
